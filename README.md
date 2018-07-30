@@ -1,6 +1,4 @@
  
-<?php
-echo<<<__END
 <html>
    <head>
 	<link rel="stylesheet" type="text/css" href="Website.css">
@@ -8,5 +6,4 @@ echo<<<__END
 	<p>Main page</p>
   <button type="button">Click Me!</button> 
 </html>
-__END;
-?>
+
