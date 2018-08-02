@@ -11,18 +11,30 @@
 	
 	<body>
 		<br><br>
-		<form action="mailto:burgertech2013@gmail.com" method="post" enctype="text/plain">
+		<form enctype="text/plain">
 			Name
-			<input type="text" required="required"></input>
+			<input type="text" name="name" id="name" required="required"></input>
 			<br><br>
 			Email
-			<input type="text" required="required"></input>
+			<input type="text" name="email" id="email" required="required"></input>
 			<br><br>
 			Message
 			<br>
-			<textarea class="messageField" name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+			<textarea class="messageField" name="body" id="body" maxlength="1000" cols="25" rows="6"></textarea>
 			<br>
-			<input type="submit" name="submit" id="submit">
+			<button type="buttong" onclick="popup()">Click me</button>
 		</form>
 	</body>
+	
+	
+	<script>
+		function popup()
+		{
+			var userName = document.getElementById('name').value;
+			var userEmail = document.getElementById('email').value + ' | ' + userName;
+			var userMessage = document.getElementById('body').value;
+			
+			window.open('mailto:burgertech2013@gmail.com&subject=' + userEmail + '&body=' + userMessage);
+		}
+	</script>
 </html>
