@@ -1,26 +1,25 @@
  
+<!DOCTYPE html>
 <html>
-   <head>
-	<link rel="stylesheet" type="text/css" href="Website.css">
-   </head>
-   <body>
-	<p>Main page</p>
-  <button type="button">Click Me!</button> 
-	
-	<script type="text/javascript" data-cfasync="false">
-        var _foxpush = _foxpush || [];
-        _foxpush.push(['_setDomain', 'burgertechnologiescom']);
+ <head>
+  <link rel="stylesheet" type="text/css" href="formats.css" >
+ </head>
+ 
+ <div class="topnav">
+      <a href="contact.html">Contact</a>
+      <a href="pastProjects.html">Past Projects</a>
+      <!--a href="signin.php">Sign In</a-->
+ </div> 
+ 
+ <body>
+  <h1>Burger Technologies</h1>
+  <h2>Affordable technology development for small business.</h2>
+  <br>
+  <h3>Services</h3>
+  <p>Website Design</p>
+  <p>Automation Software Development</p>
+  <p>Application Development</p>
+ </body>
 
-        (function(){
-            var foxscript = document.createElement('script');
-            foxscript.src = '//cdn.foxpush.net/sdk/foxpush_SDK_min.js';
-            foxscript.type = 'text/javascript';
-            foxscript.async = 'true';
-            var fox_s = document.getElementsByTagName('script')[0];
-            fox_s.parentNode.insertBefore(foxscript, fox_s);})();
-    </script>
-    
-    </body>
-	
 </html>
 
