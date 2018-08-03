@@ -96,6 +96,7 @@ p{
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
+    border-left: 5px solid white;
     background-color: #0F295F;
 }
 
@@ -104,6 +105,7 @@ p{
     float: left;
     display: block;
     color: white;
+    border-left: 5px solid white;
     text-align: center;
     padding: 2px 5px;
     font-size: 20px;
@@ -114,12 +116,14 @@ p{
 /* Change color on hover */
 .topnav a:hover {
     background-color: white;
+    border-left: 5px solid white;
     color: #0F295F;
 }
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 285px) {
   .topnav a {
+    border-left: 5px solid white;
     float: none;
     padding: 2px 2px;
     font-size: 20px;
