@@ -1,0 +1,10 @@
+var OneSignal = window.OneSignal || [];
+OneSignal.push(function() {
+   OneSignal.init({
+   appId: "f899178b-b714-4efd-b8b6-7e64c1977c1e",
+   autoRegister: false,
+   notifyButton: {
+     enable: true,
+   },
+  });
+}
